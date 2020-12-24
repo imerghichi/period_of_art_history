@@ -6,6 +6,8 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
+      <title>know your art</title>
+      <h1>Know your paintings</h1>
     <App />
   </React.StrictMode>,
   document.getElementById('root')

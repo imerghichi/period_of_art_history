@@ -5,21 +5,21 @@ import React, {useState} from "react";
 function App() {
   const questions = {
     1: {
-      questionText: "Is there a subject? Can you see something you recognize?",
+      questionText: "Is there a subject? \n Can you see something you recognize?",
       answerOptions: [
         {answerText: "Yes", isYes: 1},
         {answerText: "No", isYes: 0},
       ],
     },
     2: {
-      questionText: "Check the title, are you sure there is no subject?",
+      questionText: "Check the title,\n are you sure there is no subject?",
       answerOptions: [
         {answerText: "Yes", isYes: 1},
         {answerText: "No", isYes: 0},
       ],
     },
     11: {
-      questionText: "Are people wearing togas? (Roman Robes or capes), if they ate nudes, do their look like the kind you might see in a church?",
+      questionText: "Are people wearing togas? (Roman Robes or capes),\n if they ate nudes, do their look like the kind you might see in a church?",
       answerOptions: [
         {answerText: "Yes", isYes: 1},
         {answerText: "No", isYes: 0},
@@ -40,7 +40,7 @@ function App() {
       ],
     },
     13: {
-      questionText: "Is there a strong sens of emotion in the art and do the colors, shapes or textures help make that stronger? Or does it have a very unusual use of shape or form?",
+      questionText: "Is there a strong sens of emotion in the art and do the colors,\n shapes or textures help make that stronger? Or does it have a very unusual use of shape or form?",
       answerOptions: [
         {answerText: "Yes", isYes: 1},
         {answerText: "No", isYes: 0},
@@ -54,7 +54,7 @@ function App() {
       ],
     },
     14: {
-      questionText: "Does it include images from pop culture or regular common things with bold color that wouldn't normally be considered art?",
+      questionText: "Does it include images from pop culture or regular common things with bold\n color that wouldn't normally be considered art?",
       answerOptions: [
         {answerText: "Yes", isYes: 1},
         {answerText: "No", isYes: 0},
@@ -68,35 +68,35 @@ function App() {
       ],
     },
     15: {
-      questionText: "Does it show very rich or royal people playing or being naughty? Do even the trees and clothes look rich and fluffy?",
+      questionText: "Does it show very rich or royal people playing or being naughty?\n Do even the trees and clothes look rich and fluffy?",
       answerOptions: [
         {answerText: "Yes", isYes: 1},
         {answerText: "No", isYes: 0},
       ],
     },
     16: {
-      questionText: "Is the background very dark, but you see dramatic spot-lighting? Is it old fashioned with clothing of the 1600s like from Pirates of the Caribbean?",
+      questionText: "Is the background very dark, but you see dramatic spot-lighting?\n Is it old fashioned with clothing of the 1600s like from Pirates of the Caribbean?",
       answerOptions: [
         {answerText: "Yes", isYes: 1},
         {answerText: "No", isYes: 0},
       ],
     },
     17: {
-      questionText: "Is the paint thick and obvious? Could it be painted from observation?",
+      questionText: "Is the paint thick and obvious?\n Could it be painted from observation?",
       answerOptions: [
         {answerText: "Yes", isYes: 1},
         {answerText: "No", isYes: 0},
       ],
     },
     18: {
-      questionText: "Do you see hunting, hiking or farming? People formally interacting with nature",
+      questionText: "Do you see hunting, hiking or farming?\n People formally interacting with nature",
       answerOptions: [
         {answerText: "Yes", isYes: 1},
         {answerText: "No", isYes: 0},
       ],
     },
     181: {
-      questionText: "Are there slaves",
+      questionText: "Are there any slaves?",
       answerOptions: [
         {answerText: "Yes", isYes: 1},
         {answerText: "No", isYes: 0},
@@ -243,9 +243,10 @@ function App() {
   };
 
   return (
-    <div>
-          <div>
+    <div className='app'>
+          <div className='section'>
             {questions[currentQuestionId].questionText}
+
             {questions[currentQuestionId].answerOptions.map((answerOption) => (
               <button onClick={() => handleAnswerClick(answerOption.isYes)}>{answerOption.answerText}</button>
           ))}
