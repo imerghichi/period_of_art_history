@@ -119,19 +119,19 @@ function App() {
     21: {
       questionText: "It's abstract Expressionism",
       answerOptions: [
-        {answerText: "play again", isYes:3 }
+        {answerText: "Play again", isYes:3 }
       ],
     },
     1111: {
       questionText: "It's Renaissance",
       answerOptions: [
-        {answerText: "play again", isYes:3 }
+        {answerText: "Play again", isYes:3 }
       ],
     },
     112: {
       questionText: "It's Neoclassical",
       answerOptions: [
-        {answerText: "play again", isYes:3 }
+        {answerText: "Play again", isYes:3 }
 
       ],
     },
@@ -145,42 +145,42 @@ function App() {
     1311: {
       questionText: "It's  Cubism",
       answerOptions: [
-        {answerText: "play again", isYes:3 }
+        {answerText: "Play again", isYes:3 }
 
       ],
     },
     132: {
       questionText: "It's  Expressionism",
       answerOptions: [
-        {answerText: "play again", isYes:3 }
+        {answerText: "Play again", isYes:3 }
 
       ],
     },
     1411: {
       questionText: "It's  Pop art",
       answerOptions: [
-        {answerText: "play again", isYes:3 }
+        {answerText: "Play again", isYes:3 }
 
       ],
     },
     142: {
       questionText: "It's  Dada",
       answerOptions: [
-        {answerText: "play again", isYes:3 }
+        {answerText: "Play again", isYes:3 }
 
       ],
     },
     151: {
       questionText: "It's Rococo ",
       answerOptions: [
-        {answerText: "play again", isYes:3 }
+        {answerText: "Play again", isYes:3 }
 
       ],
     },
     161: {
       questionText: "It's Baroque ",
       answerOptions: [
-        {answerText: "play again", isYes:3 }
+        {answerText: "Play again", isYes:3 }
 
       ],
     },
@@ -209,21 +209,21 @@ function App() {
     192: {
       questionText: "It's Baroque",
       answerOptions: [
-        {answerText: "play again", isYes:3 }
+        {answerText: "Play again", isYes:3 }
 
       ],
     },
     20: {
-      questionText: "You miss Something start over ",
+      questionText: "You miss something, start over! ",
       answerOptions: [
-        {answerText: "start over", isYes:3 }
+        {answerText: "Start over", isYes:3 }
 
       ],
     },
     3: {
-      questionText: "You miss Something start over ",
+      questionText: "You miss something, start over! ",
       answerOptions: [
-        {answerText: "start over", isYes:3 }
+        {answerText: "Start over", isYes:3 }
 
       ],
     },
@@ -243,16 +243,22 @@ function App() {
   };
 
   return (
-    <div className='app'>
-          <div className='section'>
-            {questions[currentQuestionId].questionText}
+      <div>
+      <div className='app'>
+        <div className='section'>
+          {questions[currentQuestionId].questionText}
 
-            {questions[currentQuestionId].answerOptions.map((answerOption) => (
+          {questions[currentQuestionId].answerOptions.map((answerOption) => (
               <button onClick={() => handleAnswerClick(answerOption.isYes)}>{answerOption.answerText}</button>
           ))}
-          </div>
-    </div>
-  );
+        </div>
+      </div>
+        <footer>
+          <p>Made with &hearts; by <a href="https://github.com/imerghichi">Imane</a>
+          </p>
+        </footer>
+      </div>
+        );
 }
 
 export default App;
