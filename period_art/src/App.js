@@ -119,75 +119,75 @@ function App() {
     21: {
       questionText: "It's abstract Expressionism",
       answerOptions: [
-        {answerText: "Play again", isYes:3 }
+        {answerText: "PLAY AGAIN", isYes:3 }
       ],
     },
     1111: {
       questionText: "It's Renaissance",
       answerOptions: [
-        {answerText: "Play again", isYes:3 }
+        {answerText: "PLAY AGAIN", isYes:3 }
       ],
     },
     112: {
       questionText: "It's Neoclassical",
       answerOptions: [
-        {answerText: "Play again", isYes:3 }
+        {answerText: "PLAY AGAIN", isYes:3 }
 
       ],
     },
     121: {
       questionText: "It's  Surrealism",
       answerOptions: [
-        {answerText: "play again", isYes:3 }
+        {answerText: "PLAY AGAIN", isYes:3 }
 
       ],
     },
     1311: {
       questionText: "It's  Cubism",
       answerOptions: [
-        {answerText: "Play again", isYes:3 }
+        {answerText: "PLAY AGAIN", isYes:3 }
 
       ],
     },
     132: {
       questionText: "It's  Expressionism",
       answerOptions: [
-        {answerText: "Play again", isYes:3 }
+        {answerText: "PLAY AGAIN", isYes:3 }
 
       ],
     },
     1411: {
       questionText: "It's  Pop art",
       answerOptions: [
-        {answerText: "Play again", isYes:3 }
+        {answerText: "PLAY AGAIN", isYes:3 }
 
       ],
     },
     142: {
       questionText: "It's  Dada",
       answerOptions: [
-        {answerText: "Play again", isYes:3 }
+        {answerText: "PLAY AGAIN", isYes:3 }
 
       ],
     },
     151: {
       questionText: "It's Rococo ",
       answerOptions: [
-        {answerText: "Play again", isYes:3 }
+        {answerText: "PLAY AGAIN", isYes:3 }
 
       ],
     },
     161: {
       questionText: "It's Baroque ",
       answerOptions: [
-        {answerText: "Play again", isYes:3 }
+        {answerText: "PLAY AGAIN", isYes:3 }
 
       ],
     },
     171: {
       questionText: "It's Impressionism ",
       answerOptions: [
-        {answerText: "play again", isYes:3 }
+        {answerText: "PLAY AGAIN", isYes:3 }
 
       ],
     },
@@ -202,14 +202,14 @@ function App() {
     1911: {
       questionText: "It's Romanticism ",
       answerOptions: [
-        {answerText: "play again", isYes:3 }
+        {answerText: "PLAY AGAIN", isYes:3 }
 
       ],
     },
     192: {
       questionText: "It's Baroque",
       answerOptions: [
-        {answerText: "Play again", isYes:3 }
+        {answerText: "PLAY AGAIN", isYes:3 }
 
       ],
     },
@@ -254,7 +254,7 @@ function App() {
         </div>
       </div>
         <footer>
-          <p>Made with &hearts; by <a href="https://github.com/imerghichi">Imane</a>
+          <p>Made with &hearts; by <a href="https://github.com/imerghichi" target="_blank" rel="noopener noreferrer">Imane</a>
           </p>
         </footer>
       </div>

@@ -9,13 +9,17 @@ body {
 * {
   font-family: "Droid Sans" ;
   font-style: italic;
+  font-size: large;
   color: #ffffff;
 }
 
 
 body {
  background-image: url("bg-1.jpg");
-  display: flex;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;  display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
@@ -26,18 +30,16 @@ body {
   position: relative;
 }
 .app {
-  background-color: #347907;
   width: 500px;
   min-height: 200px;
   height: min-content;
   border-radius: 15px;
   padding: 20px;
-  box-shadow: 10px 10px 42px 0px rgba(0, 0, 0, 0.75);
   display: flex;
   justify-content: space-evenly;
 }
 button {
-  width: 80%;
+  width: 100%;
   font-size: 15px;
   color: #404040;
   background-color: #ffdded;
@@ -55,8 +57,4 @@ footer{
   bottom: 0;
   left: 80%;
   width: 100%;
-}
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
 }
